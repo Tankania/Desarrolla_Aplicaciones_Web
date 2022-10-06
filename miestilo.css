@@ -1,0 +1,9 @@
+body{
+    background-color:rgb(213, 152, 152);
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-escena-naturaleza-flores-colinas_1308-42080.jpg?w=2000);
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   border: 5px solid rgb(21, 31, 2);
+   
+}
