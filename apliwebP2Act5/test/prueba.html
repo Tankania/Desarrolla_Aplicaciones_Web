@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="cambia" onclick="CambiaColor()">SOY UNA PÁGINA HECHA POR TANIA</h1>
+
+
+    <button id="rojo" onmouseover="cambiaARojo()"> Tócame soy rojo</button>
+    <button id="amarillo" onmouseover="cambiaAAmarillo()">Soy el amarillo</button>
+    <button id="verde" onmouseover="cambiaAVerde()"> Soy el verde</button>
+    <script>
+
+        function cambiaARojo(){
+            alert("Me tocaste OMG");
+            document.getElementById("rojo").style.color ="black";
+            document.getElementById("rojo").style.backgroundColor ="red";
+            document.getElementById ("cambia").style.color ="red";
+        }
+        function cambiaAAmarillo(){
+            alert("Me tocaste!!!!!!!!1 OMG!!!!!!");
+            document.getElementById("amarillo").style.color ="black";
+            document.getElementById("amarillo").style.backgroundColor ="yellow";
+            document.getElementById ("cambia").style.color ="yellow";
+}
+function cambiaAVerde(){
+    alert("Mirame soy verde !!!!!!!");
+            document.getElementById("verde").style.color ="black";
+            document.getElementById("verde").style.backgroundColor ="green";
+            document.getElementById ("cambia").style.color ="green";
+}
+function CambiaColor(){
+    document.getElementById ("cambia").style.color ="red";
+}
+    </script>
+</body>
+</html>

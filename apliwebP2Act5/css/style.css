@@ -1,0 +1,8 @@
+body{
+    background-color:rgb(240, 227, 49);
+    font-size: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+   border: 5px solid rgb(109, 74, 10);
+   color: brown;
+}
